@@ -129,7 +129,7 @@ print("\n")
 
 print("Thank you for playing the city quiz!")
 
-entry = username + "," + str(score)
+entry = username + ", " + str(score)
 
 score = []
 
