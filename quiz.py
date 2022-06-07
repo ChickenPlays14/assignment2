@@ -105,7 +105,7 @@ def highscores():
                 highest = int(each)
                 index_number = results.index(each)
 
-        high_scores.append(str(highest) + "" + names [index_number])
+        high_scores.append(str(highest) + "" + names[index_number])
         results.pop(index_number)
         names.pop(index_number)
 
